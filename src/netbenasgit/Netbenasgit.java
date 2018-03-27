@@ -17,7 +17,11 @@ public class Netbenasgit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Adios mundo");
+        for(int i=0;i<=100;i+=1){
+            int r=i*5;
+            System.out.println(i+" X "+5+" = "+r);
+        }
+        
     }
     
 }
